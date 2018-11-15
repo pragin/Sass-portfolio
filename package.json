@@ -1,0 +1,14 @@
+{
+  "name": "sass_portforlio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio using Sass",
+  "main": "index.js",
+  "scripts": {
+    "sass-start": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Pragin Martin",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
